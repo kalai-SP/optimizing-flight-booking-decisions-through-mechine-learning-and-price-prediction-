@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<title>Flight Price Prediction</title>
+<head>
+    <style>
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #333;
+        }
+
+        li {
+          float: left;
+        }
+
+        li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+
+        li a:hover {
+          background-color: #111;
+        }
+        </style>
+</head>
+
+<body style="background-image: url('/static/flight2.jpg'); background-repeat: no-repeat;background-size: cover;background-attachment: fixed;  min-height: 100vh; max-width: 800px;">
+    <ul>
+        <li><a class="active" href="/">Home</a></li>
+        <li><a href="/predict">Prediction</a></li>
+      </ul>
+    <h1>Flight Price Prediction</h1>
+<div>Based on the given input, we can get the flight price as {{prediction_text }}</div>
+</body>
+</html>
